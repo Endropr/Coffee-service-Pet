@@ -24,20 +24,20 @@ This service demonstrates how to handle orders, apply discounts using pointer re
    ```bash
    cd go-coffee-service-Pet
 
-4. Run the application:
+3. Run the application:
    ```bash
    go run .
 
 ##  What I've Learned
 
-    Building this project helped me understand:
+* Building this project helped me understand:
 
-    How Go handles data structures.
+* How Go handles data structures.
 
-    The difference between value and pointer receivers.
+* The difference between value and pointer receivers.
 
-    How to structure a multi-file Go package.
+* How to structure a multi-file Go package.
 
-    Basic Git workflow and repository management.
+* Basic Git workflow and repository management.
 
 Created by Endropr as part of the Go learning journey.
