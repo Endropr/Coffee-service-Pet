@@ -21,9 +21,11 @@ This service demonstrates how to handle orders, apply discounts using pointer re
    git clone [https://github.com/Endropr/go-coffee-service-Pet.git](https://github.com/Endropr/go-coffee-service-Pet.git)
 
 2. Navigate to the project folder:
+   ```bash
    cd go-coffee-service-Pet
 
-3. Run the application:
+4. Run the application:
+   ```bash
    go run .
 
     What I've Learned
