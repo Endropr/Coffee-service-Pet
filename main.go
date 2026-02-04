@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"os"
 )
 
 func main() {
@@ -22,8 +23,14 @@ func main() {
 	if err != nil {
 		log.Fatal("Ошибка при создании JSON:", err)
 	}
-
 	// Результат
 	fmt.Println("--- Итоговый чек (JSON) ---")
 	fmt.Println(string(data))
+	
+	err = os.WriteFile("order.json", data, 0644)
+	if err != nil {
+		log.Printf("Внимание! Не удалось сохранить файл: %v", err)
+	} else {
+		fmt.Println("\n✅ Чек успешно сохранен в файл: order.json")
+	}
 }
